@@ -1,0 +1,12 @@
+.home{
+	width: 100%;
+	background-color: #1F2235;
+	.home__container{
+		width: 100%;
+		min-height: 100vh;
+		display: flex;
+		column-gap:50px;
+		justify-content: center;
+		align-items:center;
+	}
+}
