@@ -1,20 +1,14 @@
 import "./Header.scss"
-import React, { useState } from 'react'
 import { Link, NavLink } from 'react-router-dom'
 
 function Header() {
-	let [click, setClick] = useState(true)
-
 	let clazz = 'nav-link'
 	let activeClazz = 'nav-link-active'
 
-	const changeColor = () => {
-		setClick(!click)
-	}
 
 	return (
 		<header>
-			<div className='header__container container'>
+			<div className='header__container'>
 				<div className='header__logo'>
 					<h1>Shokhruz.</h1>
 				</div>
@@ -24,7 +18,6 @@ function Header() {
 							<NavLink
 								to='/'
 								className={({ isActive }) => (isActive ? activeClazz : clazz)}
-								onClick={changeColor}
 							>
 								Home
 							</NavLink>
@@ -33,7 +26,6 @@ function Header() {
 							<NavLink
 								to='/about'
 								className={({ isActive }) => (isActive ? activeClazz : clazz)}
-								onClick={changeColor}
 							>
 								About
 							</NavLink>

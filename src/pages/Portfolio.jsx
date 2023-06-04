@@ -1,8 +1,48 @@
 import React from 'react'
+import "./Portfolio.scss"
+import { NavLink } from 'react-router-dom'
+import Projects from '../components/projects/Projects'
+import ProjectCardData from '../data'
 
 function Portfolio() {
+	
 	return (
-		<div>Portfolio</div>
+		<section className='portfolio__section'>
+			<div className='portfolio__container'>
+				<div className='portfoilo'>
+					<h3>Portfolio</h3>
+				</div>
+				<h2>Some Of My Creative Work</h2>
+				<ul className='filter'>
+					<li>
+						<NavLink className='nav-link'>All</NavLink>
+					</li>
+					<li>
+						<NavLink className='nav-link'>Website</NavLink>
+					</li>
+					<li>
+						<NavLink className='nav-link'>React app</NavLink>
+					</li>
+					<li>
+						<NavLink className='nav-link'>Project</NavLink>
+					</li>
+				</ul>
+				<div className='projects__content'>
+					{ProjectCardData?.map(item => {
+						return (
+							<Projects
+								key={item.id}
+								imgsrc={item.imgsrc}
+								title={item.title}
+								text={item.text}
+								view={item.view}
+								source={item.source}
+							/>
+						)
+					})}
+				</div>
+			</div>
+		</section>
 	)
 }
 

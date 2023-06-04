@@ -1,8 +1,9 @@
 import React from 'react'
+import './Services.scss'
 
 function Services() {
 	return (
-		<div>Services</div>
+		<div>helllo</div>
 	)
 }
 

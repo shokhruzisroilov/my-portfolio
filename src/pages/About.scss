@@ -1,0 +1,19 @@
+.about{
+	width: 100%;
+	background-color: #24263B;
+	padding:0 100px;
+	.about__container{
+		width: 100%;
+		min-height: 90vh;
+		display: flex;
+		align-items:center;
+		justify-content: center;
+		column-gap:150px;
+		.about__image{
+			img{
+				width: 400px;
+				border-radius:30px;
+			}
+		}
+	}
+}
