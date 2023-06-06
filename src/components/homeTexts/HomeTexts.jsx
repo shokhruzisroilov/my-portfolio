@@ -10,8 +10,8 @@ function HomeTexts() {
 				Hello, i‘m Shokhruz <span>Frontend</span> Developer.
 			</div>
 			<h3>
-				Conveniently customize proactive web services for leveraged without
-				continualliery aggregate fricctionle ou wellies richard.
+				I'm a curious frontend developer, eager to learn new things, I can work
+				with a backend developer, I'm also interested in design.
 			</h3>
 			<div className='buttons'>
 				<button className='btn btn-left'>Hire Me</button>

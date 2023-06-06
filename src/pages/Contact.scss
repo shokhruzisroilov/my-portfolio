@@ -1,0 +1,120 @@
+.contact__section{
+	width: 100%;
+	.contact__container{
+		width: 100%;
+		min-height: 90vh;
+		background-color: #1F2235;
+		display: flex;
+		flex-direction: column;
+		align-items:center;
+		justify-content: center;
+		.contact{
+			padding: 10px 30px;
+			background: #24263B;
+			box-shadow: 0px 0px 24px rgba(15, 16, 24, 0.42);
+			border-radius: 4px;
+			font-weight: 600;
+			font-size: 16px;
+			line-height: 12px;
+			text-align: center;
+			letter-spacing: 0.15em;
+			text-transform: capitalize;
+			color: #FFFFFF;
+		}
+		.contact__forma{
+			display: flex;
+			align-items:center;
+			column-gap:100px;
+			padding-top: 50px;
+			.contact__info{
+				display: flex;
+				row-gap: 20px;
+				flex-direction: column;
+				article{
+					display: flex;
+					column-gap:20px;
+					align-items:center;
+					background: #24263B;
+					border: 1px solid rgba(255, 255, 255, 0.2);
+					border-radius: 8px;
+					padding: 18px 24px;
+					.icons{
+						padding: 22px;
+						background: #24263B;
+						border-radius: 50%;
+						color:#FFF;
+						box-shadow: 0px 0px 24px rgba(15, 16, 24, 0.42);
+					}
+					span{
+						h4{
+							font-weight: 600;
+							font-size: 24px;
+							line-height: 30px;
+							color: #FFFFFF;
+						}
+						p{
+							font-weight: 300;
+							font-size: 16px;
+							line-height: 24px;
+							color: #FFFFFF;
+							text-shadow: 0px 0px 24px rgba(179, 181, 191, 0.42);
+						}
+					}
+				}
+			}
+			.form__message{
+				label{
+					font-weight: 600;
+					font-size: 24px;
+					line-height: 30px;
+					color: #FFFFFF;
+				}
+				input{
+					width: 335px;
+					height: 56px;
+					background: #24263B;
+					border: 1px solid rgba(255, 255, 255, 0.2);
+					border-radius: 8px;
+					font-weight: 300;
+					font-size: 16px;
+					line-height: 19px;
+					color: #70717B;
+					outline: none;
+					padding-left: 30px;
+					margin-top: 30px;
+				}
+				.email{
+					margin-left: 30px;	
+				}
+				textarea{
+					width: 700px;
+					height: 200px;
+					background: #24263B;
+					border: 1px solid rgba(255, 255, 255, 0.2);
+					border-radius: 8px;
+					margin-top: 20px;
+					outline: none;
+					font-weight: 300;
+					font-size: 16px;
+					line-height: 19px;
+					color: #70717B;
+					padding: 15px 30px;
+				}
+				button{
+					margin-top: 40px;
+					background: #FE461C;
+					border-radius: 4px;
+					padding: 20px 50px;
+					font-weight: 700;
+					font-size: 16px;
+					line-height: 15px;
+					text-align: center;
+					text-transform: capitalize;
+					color: #FFFFFF;
+					border:none;
+					cursor: pointer;
+				}
+			}
+		}
+	}
+}

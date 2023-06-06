@@ -40,26 +40,10 @@ function Header() {
 						</li>
 						<li>
 							<NavLink
-								to='/services'
-								className={({ isActive }) => (isActive ? activeClazz : clazz)}
-							>
-								Services
-							</NavLink>
-						</li>
-						<li>
-							<NavLink
 								to='/resume'
 								className={({ isActive }) => (isActive ? activeClazz : clazz)}
 							>
 								Resume
-							</NavLink>
-						</li>
-						<li>
-							<NavLink
-								to='/client'
-								className={({ isActive }) => (isActive ? activeClazz : clazz)}
-							>
-								Client
 							</NavLink>
 						</li>
 						<li>
