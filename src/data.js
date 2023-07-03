@@ -1,10 +1,12 @@
 import owaBooks from "./assets/owa-books-img.jpg"
 import sneakers from './assets/sneakers-img.jpg'
 import zummaPharma from './assets/zumma-pharma-img.jpg'
+import todoApp from './assets/todo-app.webp'
 import bg from './assets/into-bg-img.jpg'
 
 const ProjectCardData = [
 	{
+		id: 1,
 		imgsrc: owaBooks,
 		title: 'Open Web Academy Books Website',
 		text: 'EmailAddress:eve.holt@reqres.in, Password: cityslicka',
@@ -12,40 +14,45 @@ const ProjectCardData = [
 		source: 'https://github.com/shokhruzisroilov/OwaBooks-react',
 	},
 	{
+		id: 2,
 		imgsrc: sneakers,
 		title: 'Sneakers shopping website',
-		text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. ',
+		text: 'JavaScript online shop page',
 		view: 'https://sneakers12.netlify.app/',
 		source: 'https://github.com/shokhruzisroilov/sneakers-exam-js',
 	},
 	{
+		id: 3,
 		imgsrc: zummaPharma,
 		title: 'Zumma pharma website',
-		text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+		text: 'zumma pharma leanding page',
 		view: 'https://zumma-pharma-site.netlify.app/',
 		source: 'https://github.com/shokhruzisroilov/zumma-pharma',
 	},
 	{
-		imgsrc: bg,
-		title: 'Zumma pharma website',
-		text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-		view: 'https://zumma-pharma-site.netlify.app/',
-		source: 'https://github.com/shokhruzisroilov/zumma-pharma',
+		id: 4,
+		imgsrc: todoApp,
+		title: 'React Todo App',
+		text: 'Beautiful todoapp in reactjs',
+		view: 'https://1-todo-app-react.vercel.app/',
+		source: 'https://github.com/shokhruzisroilov/MyPortfolioWebsite.git',
 	},
-	{
-		imgsrc: bg,
-		title: 'Zumma pharma website',
-		text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. ',
-		view: 'https://zumma-pharma-site.netlify.app/',
-		source: 'https://github.com/shokhruzisroilov/zumma-pharma',
-	},
-	{
-		imgsrc: bg,
-		title: 'Zumma pharma website',
-		text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. ',
-		view: 'https://zumma-pharma-site.netlify.app/',
-		source: 'https://github.com/shokhruzisroilov/zumma-pharma',
-	},
+	// {
+	// 	id: 5,
+	// 	imgsrc: bg,
+	// 	title: 'Zumma pharma website',
+	// 	text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. ',
+	// 	view: 'https://zumma-pharma-site.netlify.app/',
+	// 	source: 'https://github.com/shokhruzisroilov/zumma-pharma',
+	// },
+	// {
+	// 	id: 6,
+	// 	imgsrc: bg,
+	// 	title: 'Zumma pharma website',
+	// 	text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. ',
+	// 	view: 'https://zumma-pharma-site.netlify.app/',
+	// 	source: 'https://github.com/shokhruzisroilov/zumma-pharma',
+	// },
 ]
 
 export default ProjectCardData

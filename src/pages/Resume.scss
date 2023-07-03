@@ -1,0 +1,26 @@
+.resume {
+	width: 100%;
+	.resume__container {
+		width: 100%;
+		min-height: 90vh;
+		background-color: #1f2235;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: flex-start;
+		padding: 50px 100px;
+		.res {
+			padding: 10px 30px;
+			background: #24263b;
+			box-shadow: 0px 0px 24px rgba(15, 16, 24, 0.42);
+			border-radius: 4px;
+			font-weight: 600;
+			font-size: 16px;
+			line-height: 12px;
+			text-align: center;
+			letter-spacing: 0.15em;
+			text-transform: capitalize;
+			color: #ffffff;
+		}
+	}
+}

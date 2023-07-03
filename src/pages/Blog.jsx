@@ -1,6 +1,6 @@
-import React from 'react'
 import './Blog.scss'
-import BlogsItem from '../components/blogsItem/BlogsItem'
+import BlogsCardData from '../blogData'
+import BlogArticle from '../components/blogArticle/BlogArticle'
 
 function Blog() {
 	return (
@@ -8,16 +8,26 @@ function Blog() {
 			<div className='blog__container'>
 				<div className='blog'>Blog Post</div>
 				<div className='all__blogs'>
-					<BlogsItem />
-					<BlogsItem />
-					<BlogsItem />
+					{BlogsCardData.map(item => {
+						return (
+							<BlogArticle
+								key={item.id}
+								imgsrc={item.imgsrc}
+								title={item.title}
+								name={item.name}
+								view={item.view}
+							/>
+						)
+					})}
 				</div>
 				<div className='subscribe__section'>
 					<div className='subscribe__container'>
 						<div className='text'>
 							<h3>Subscribe Now</h3>
-							<h2>Get My Newsletter</h2>
-							<p>Get latest news, updates, tips and trics in your inbox</p>
+							<h2>
+								It will be useful <br /> for you
+							</h2>
+							<p>I'm glad it was useful to you😎</p>
 						</div>
 						<div className='form'>
 							<input type='email' placeholder='Enter your Email' />

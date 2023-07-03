@@ -1,10 +1,9 @@
-import React from 'react'
 import './HomeImage.scss'
-import PortfolioImage from "../../assets/portfolio-imges.jpg"
-import htmlIcon from "../../assets/html-icon.svg"
-import cssIcon from "../../assets/css-icon.svg"
+import PortfolioImage from '../../assets/portfolio-imges.jpg'
+import htmlIcon from '../../assets/html-icon.svg'
+import cssIcon from '../../assets/css-icon.svg'
 import javaScritpIcon from '../../assets/javascript-programming-language-icon.svg'
-import reactIcon from "../../assets/react-js-icon.svg"
+import reactIcon from '../../assets/react-js-icon.svg'
 
 function HomeImage() {
 	return (

@@ -1,4 +1,3 @@
-import React from 'react'
 import './AboutInfo.scss'
 
 function AboutInfo() {
@@ -54,7 +53,6 @@ function AboutInfo() {
 					</li>
 				</ul>
 			</div>
-			<button>Download CV</button>
 		</div>
 	)
 }

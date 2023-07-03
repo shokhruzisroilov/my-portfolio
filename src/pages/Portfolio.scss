@@ -1,64 +1,87 @@
-.portfolio__section{
+.portfolio__section {
 	width: 100%;
-	.portfolio__container{
+	.portfolio__container {
 		width: 100%;
 		min-height: 90vh;
-		background-color: #1F2235;
-		padding:100px;
+		background-color: #1f2235;
 		display: flex;
 		flex-direction: column;
-		align-items:center;
-		justify-content: center;
-		.portfoilo{
-			width: 115px;
-			height: 35px;
-			background: #24263B;
+		align-items: center;
+		padding: 50px 100px;
+		.portfoilo {
+			padding: 12px 14px;
+			background: #24263b;
 			box-shadow: 0px 0px 24px rgba(15, 16, 24, 0.42);
 			border-radius: 4px;
 			display: flex;
-			align-items:center;
+			align-items: center;
 			justify-content: center;
-			h3{
+			h3 {
 				font-weight: 600;
 				font-size: 16px;
 				line-height: 12px;
 				text-align: center;
 				letter-spacing: 0.15em;
 				text-transform: capitalize;
-				color: #FFFFFF;
+				color: #ffffff;
 			}
 		}
-		h2{
-			font-weight: 700;
-			font-size: 36px;
-			line-height: 48px;
-			text-align: center;
-			color: #FFFFFF;
-			padding-top: 20px;
-		}
-		.filter{
+		.filter {
 			display: flex;
 			list-style: none;
-			column-gap:30px;
+			column-gap: 30px;
 			padding-top: 50px;
-			li{
-				.nav-link{
+			li {
+				.nav-link {
 					font-weight: 600;
 					font-size: 16px;
 					line-height: 20px;
-					color: #FFFFFF;
+					color: #ffffff;
 					cursor: pointer;
 					text-decoration: none;
 				}
 			}
 		}
-		.projects__content{
+		.projects__content {
 			display: flex;
 			justify-content: center;
 			gap: 24px;
 			padding-top: 35px;
-			display:grid;
+			display: grid;
 			grid-template-columns: repeat(3, 1fr);
+		}
+	}
+}
+@media screen and (min-width: 1200px) and (max-width: 1440px) {
+	.portfolio__section {
+		.portfolio__container {
+			padding: 50px;
+		}
+	}
+}
+@media screen and (max-width: 1200px) {
+	.portfolio__section {
+		.portfolio__container {
+			padding: 50px;
+			.projects__content {
+				display: grid;
+				grid-template-columns: repeat(2, 1fr);
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.portfolio__section {
+		.portfolio__container {
+			padding: 10px 20px;
+			.projects__content {
+				display: grid;
+				grid-template-columns: repeat(1, 1fr);
+				display: flex;
+				flex-direction: column;
+				row-gap: 50px;
+			}
 		}
 	}
 }

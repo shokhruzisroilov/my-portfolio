@@ -1,18 +1,15 @@
-import React from 'react'
-import "./Portfolio.scss"
+import './Portfolio.scss'
 import { NavLink } from 'react-router-dom'
 import Projects from '../components/projects/Projects'
 import ProjectCardData from '../data'
 
 function Portfolio() {
-	
 	return (
 		<section className='portfolio__section'>
 			<div className='portfolio__container'>
 				<div className='portfoilo'>
 					<h3>Portfolio</h3>
 				</div>
-				<h2>Some Of My Creative Work</h2>
 				<ul className='filter'>
 					<li>
 						<NavLink className='nav-link'>All</NavLink>

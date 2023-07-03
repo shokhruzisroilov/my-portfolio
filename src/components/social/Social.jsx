@@ -1,7 +1,7 @@
 import React from 'react'
 import './Social.scss'
 
-import { FaLinkedin, FaGithub,FaTelegram } from 'react-icons/fa'
+import { FaLinkedin, FaGithub, FaTelegram } from 'react-icons/fa'
 
 function Social() {
 	return (

@@ -1,8 +1,12 @@
-import React from 'react'
+import './Resume.scss'
 
 function Resume() {
 	return (
-		<div>Resume</div>
+		<div className='resume'>
+			<div className='resume__container'>
+				<div className='res'>Resume</div>
+			</div>
+		</div>
 	)
 }
 
