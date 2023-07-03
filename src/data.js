@@ -33,9 +33,9 @@ const ProjectCardData = [
 		id: 4,
 		imgsrc: todoApp,
 		title: 'React Todo App',
-		text: 'Beautiful todoapp in reactjs',
+		text: 'https://1-todo-app-reactjs.netlify.app/',
 		view: 'https://1-todo-app-react.vercel.app/',
-		source: 'https://github.com/shokhruzisroilov/MyPortfolioWebsite.git',
+		source: 'https://github.com/shokhruzisroilov/TodoApp.git',
 	},
 	// {
 	// 	id: 5,
