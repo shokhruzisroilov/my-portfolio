@@ -34,25 +34,25 @@ const ProjectCardData = [
 		imgsrc: todoApp,
 		title: 'React Todo App',
 		text: 'https://1-todo-app-reactjs.netlify.app/',
-		view: 'https://1-todo-app-react.vercel.app/',
+		view: 'https://1-todo-app-reactjs.netlify.app/',
 		source: 'https://github.com/shokhruzisroilov/TodoApp.git',
 	},
-	// {
-	// 	id: 5,
-	// 	imgsrc: bg,
-	// 	title: 'Zumma pharma website',
-	// 	text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. ',
-	// 	view: 'https://zumma-pharma-site.netlify.app/',
-	// 	source: 'https://github.com/shokhruzisroilov/zumma-pharma',
-	// },
-	// {
-	// 	id: 6,
-	// 	imgsrc: bg,
-	// 	title: 'Zumma pharma website',
-	// 	text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. ',
-	// 	view: 'https://zumma-pharma-site.netlify.app/',
-	// 	source: 'https://github.com/shokhruzisroilov/zumma-pharma',
-	// },
+	{
+		id: 5,
+		imgsrc: bg,
+		title: 'Zumma pharma website',
+		text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. ',
+		view: 'https://zumma-pharma-site.netlify.app/',
+		source: 'https://github.com/shokhruzisroilov/zumma-pharma',
+	},
+	{
+		id: 6,
+		imgsrc: bg,
+		title: 'Zumma pharma website',
+		text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. ',
+		view: 'https://zumma-pharma-site.netlify.app/',
+		source: 'https://github.com/shokhruzisroilov/zumma-pharma',
+	},
 ]
 
 export default ProjectCardData
