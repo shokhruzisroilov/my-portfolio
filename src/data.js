@@ -43,16 +43,16 @@ const ProjectCardData = [
 		imgsrc: countryInfo,
 		title: 'Country Info',
 		text: 'Information about countries and a site that works with api.',
-		view: 'https://1-todo-app-reactjs.netlify.app/',
-		source: 'https://github.com/shokhruzisroilov/TodoApp.git',
+		view: 'https://2-country-info.vercel.app/',
+		source: 'https://github.com/shokhruzisroilov/CountryInfo.git',
 	},
 	{
 		id: 6,
 		imgsrc: bg,
-		title: 'Zumma pharma website',
-		text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. ',
-		view: 'https://zumma-pharma-site.netlify.app/',
-		source: 'https://github.com/shokhruzisroilov/zumma-pharma',
+		title: 'OrginalUz',
+		text: 'OrginalUz E-commerse website',
+		view: 'https://orginal-uz-e-commerse.vercel.app/',
+		source: 'https://github.com/shokhruzisroilov/OrginalUz_E-commerse.git',
 	},
 ]
 
