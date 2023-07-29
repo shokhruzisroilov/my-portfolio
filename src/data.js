@@ -3,6 +3,7 @@ import sneakers from './assets/sneakers-img.jpg'
 import zummaPharma from './assets/zumma-pharma-img.jpg'
 import todoApp from './assets/todo-app.webp'
 import bg from './assets/into-bg-img.jpg'
+import countryInfo from './assets/country-info.jpg'
 
 const ProjectCardData = [
 	{
@@ -33,17 +34,17 @@ const ProjectCardData = [
 		id: 4,
 		imgsrc: todoApp,
 		title: 'React Todo App',
-		text: 'https://1-todo-app-reactjs.netlify.app/',
-		view: 'https://1-todo-app-reactjs.netlify.app/',
+		text: 'Beautiful and functional todo app',
+		view: 'https://todo-app-project1.vercel.app/',
 		source: 'https://github.com/shokhruzisroilov/TodoApp.git',
 	},
 	{
 		id: 5,
-		imgsrc: bg,
-		title: 'Zumma pharma website',
-		text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. ',
-		view: 'https://zumma-pharma-site.netlify.app/',
-		source: 'https://github.com/shokhruzisroilov/zumma-pharma',
+		imgsrc: countryInfo,
+		title: 'Country Info',
+		text: 'Information about countries and a site that works with api.',
+		view: 'https://1-todo-app-reactjs.netlify.app/',
+		source: 'https://github.com/shokhruzisroilov/TodoApp.git',
 	},
 	{
 		id: 6,
