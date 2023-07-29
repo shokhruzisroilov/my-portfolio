@@ -2,7 +2,7 @@ import owaBooks from "./assets/owa-books-img.jpg"
 import sneakers from './assets/sneakers-img.jpg'
 import zummaPharma from './assets/zumma-pharma-img.jpg'
 import todoApp from './assets/todo-app.webp'
-import bg from './assets/into-bg-img.jpg'
+import orginaluz from './assets/orginal-uz.jpg'
 import countryInfo from './assets/country-info.jpg'
 
 const ProjectCardData = [
@@ -48,7 +48,7 @@ const ProjectCardData = [
 	},
 	{
 		id: 6,
-		imgsrc: bg,
+		imgsrc: orginaluz,
 		title: 'OrginalUz',
 		text: 'OrginalUz E-commerse website',
 		view: 'https://orginal-uz-e-commerse.vercel.app/',
