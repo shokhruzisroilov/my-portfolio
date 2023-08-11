@@ -4,7 +4,7 @@ import { useState } from 'react'
 import { Link } from 'react-router-dom'
 
 function Projects({ imgsrc, title, text, view, sourse }) {
-	const [views, setView] = useState(false)
+	const [views, setView] = useState(true)
 
 	const titleStr = () => {
 		if (text.length >= 38) {
