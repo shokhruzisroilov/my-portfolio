@@ -35,7 +35,8 @@
 		height: 100%;
 		max-width: 500px;
 		height: 250px;
-		object-fit: cover;	
+		object-position: top center;
+		object-fit: cover center;
 		transition: 0.5s;
 	}
 	img:hover {
