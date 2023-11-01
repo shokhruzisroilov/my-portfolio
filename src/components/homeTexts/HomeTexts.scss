@@ -52,9 +52,12 @@
 			background: #fe461c;
 			text-decoration: none;
 		}
-		.btn-right {
-			border: 2px solid #ffffff;
-			background-color: #1f2235;
+		a {
+			text-decoration: none;
+			.btn-right {
+				border: 2px solid #ffffff;
+				background-color: #1f2235;
+			}
 		}
 	}
 }
