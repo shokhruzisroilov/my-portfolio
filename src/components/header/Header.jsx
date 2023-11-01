@@ -2,24 +2,13 @@ import './Header.scss'
 import { NavLink } from 'react-router-dom'
 import { FaBars, FaWindowClose } from 'react-icons/fa'
 import { useState } from 'react'
+import ExampleDoc from '../../public/MyCV.pdf'
 
 function Header() {
 	const [burger, setBurger] = useState(true)
 
 	let clazz = 'nav-link'
 	let activeClazz = 'nav-link-active'
-
-	const onButtonClick = () => {
-		fetch('SamplePDF.pdf').then(response => {
-			response.blob().then(blob => {
-				const fileURL = window.URL.createObjectURL(blob)
-				let alink = document.createElement('a')
-				alink.href = fileURL
-				alink.download = 'Resume.pdf'
-				alink.click()
-			})
-		})
-	}
 
 	return (
 		<header>
@@ -84,9 +73,12 @@ function Header() {
 							</NavLink>
 						</li>
 						<li>
-							<button className='link-button' onClick={onButtonClick}>
-								Download CV
-							</button>
+							{/* <a href={ExampleDoc} download='MyExampleDoc' target='_blank'>
+								<Button>My Example Doc</Button>
+							</a> */}
+							<a href={ExampleDoc} download='Shohruz Isroilov' target='_blank'>
+								<button className='link-button'>Download CV</button>
+							</a>
 						</li>
 					</ul>
 					{burger ? (

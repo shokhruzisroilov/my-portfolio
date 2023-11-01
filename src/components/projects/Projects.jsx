@@ -3,7 +3,7 @@ import { useState } from 'react'
 
 import { Link } from 'react-router-dom'
 
-function Projects({ imgsrc, title, text, view, sourse }) {
+function Projects({ imgsrc, title, text, view, source }) {
 	const [views, setView] = useState(true)
 
 	const titleStr = () => {
@@ -28,7 +28,7 @@ function Projects({ imgsrc, title, text, view, sourse }) {
 					view
 				</Link>
 				<Link
-					to={sourse}
+					to={source}
 					className={!views ? 'btn btn-view' : 'btn btn-view-active'}
 				>
 					sourse

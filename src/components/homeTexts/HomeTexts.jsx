@@ -1,19 +1,8 @@
 import './HomeTexts.scss'
 import { Link } from 'react-router-dom'
+import ExampleDoc from '../../public/MyCV.pdf'
 
 function HomeTexts() {
-	const onButtonClick = () => {
-		fetch('SamplePDF.pdf').then(response => {
-			response.blob().then(blob => {
-				const fileURL = window.URL.createObjectURL(blob)
-				let alink = document.createElement('a')
-				alink.href = fileURL
-				alink.download = 'Resume.pdf'
-				alink.click()
-			})
-		})
-	}
-
 	return (
 		<div className='home__text'>
 			<h2>welcome My Portfolio</h2>
@@ -28,9 +17,9 @@ function HomeTexts() {
 				<Link to='/contact' className='btn btn-left'>
 					Hire Me
 				</Link>
-				<button className='btn btn-right' onClick={onButtonClick}>
-					Download CV
-				</button>
+				<a href={ExampleDoc} download='Shohruz Isroilov' target='_blank'>
+					<button className='btn btn-right'>Download CV</button>
+				</a>
 			</div>
 		</div>
 	)
