@@ -33,7 +33,7 @@ const ProjectCardData = [
 		imgsrc: owaBooks,
 		title: 'Open Web Academy Books Website',
 		text: 'EmailAddress:eve.holt@reqres.in, Password: cityslicka',
-		view: 'https://owa-books-exam.netlify.app/',
+		view: 'https://owa-books-react.vercel.app/',
 		source: 'https://github.com/shokhruzisroilov/OwaBooks-react',
 	},
 ]
