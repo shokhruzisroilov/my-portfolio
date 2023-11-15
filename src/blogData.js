@@ -11,14 +11,14 @@ const BlogsCardData = [
 		imgsrc: blogPost5,
 		title: 'My telegram channel',
 		name: 'Telegram',
-		view: 'https://t.me/webcodely',
+		view: 'https://t.me/shohcodely',
 	},
 	{
 		id: 2,
 		imgsrc: blogPost6,
 		title: 'My youtube channel',
 		name: 'Youtube',
-		view: 'https://youtube.com/@shohruz_isroilov',
+		view: 'https://youtube.com/@shohcodely',
 	},
 	{
 		id: 3,
