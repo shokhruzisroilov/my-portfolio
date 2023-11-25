@@ -10,7 +10,7 @@ function Portfolio() {
 				<div className='portfoilo'>
 					<h3>Portfolio</h3>
 				</div>
-				<ul className='filter'>
+				{/* <ul className='filter'>
 					<li>
 						<NavLink className='nav-link'>All</NavLink>
 					</li>
@@ -23,7 +23,7 @@ function Portfolio() {
 					<li>
 						<NavLink className='nav-link'>Project</NavLink>
 					</li>
-				</ul>
+				</ul> */}
 				<div className='projects__content'>
 					{ProjectCardData?.map(item => {
 						return (
