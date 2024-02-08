@@ -17,6 +17,14 @@ const ProjectCardData = [
 	},
 	{
 		id: uuidv4(),
+		imgsrc: owaBooks,
+		title: 'Owa Books Website',
+		text: 'Owa books fullstack crud website',
+		view: 'https://owa-books-frontend.vercel.app/',
+		source: 'https://github.com/shokhruzisroilov/owa-books.git',
+	},
+	{
+		id: uuidv4(),
 		imgsrc: eCommerse,
 		title: 'OrginalUz',
 		text: 'OrginalUz E-commerse website',
@@ -39,14 +47,7 @@ const ProjectCardData = [
 		view: 'https://todo-app-project1.vercel.app/',
 		source: 'https://github.com/shokhruzisroilov/TodoApp.git',
 	},
-	{
-		id: uuidv4(),
-		imgsrc: owaBooks,
-		title: 'Open Web Academy Books Website',
-		text: 'EmailAddress:eve.holt@reqres.in, Password: cityslicka',
-		view: 'https://owa-books-react.vercel.app/',
-		source: 'https://github.com/shokhruzisroilov/OwaBooks-react',
-	},
+
 	{
 		id: uuidv4(),
 		imgsrc: zummaPharma,
