@@ -25,18 +25,19 @@ function Portfolio() {
 					</li>
 				</ul> */}
 				<div className='projects__content'>
-					{ProjectCardData?.map(item => {
-						return (
-							<Projects
-								key={item.id}
-								imgsrc={item.imgsrc}
-								title={item.title}
-								text={item.text}
-								view={item.view}
-								source={item.source}
-							/>
-						)
-					})}
+					{ProjectCardData &&
+						ProjectCardData.map(item => {
+							return (
+								<Projects
+									key={item.id}
+									imgsrc={item.imgsrc}
+									title={item.title}
+									text={item.text}
+									view={item.view}
+									source={item.source}
+								/>
+							)
+						})}
 				</div>
 			</div>
 		</section>
