@@ -1,6 +1,7 @@
 .blog__section {
 	width: 100%;
 	background-color: #1f2235;
+	// padding-top: 50px;
 
 	.blog__container {
 		width: 100%;
@@ -8,12 +9,16 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+		padding: 0 20px;
 
 		.blog {
-			padding: 10px 30px;
+			padding: 12px 14px;
 			background: #24263b;
 			box-shadow: 0px 0px 24px rgba(15, 16, 24, 0.42);
 			border-radius: 4px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
 			font-weight: 600;
 			font-size: 16px;
 			line-height: 12px;
@@ -23,10 +28,14 @@
 			color: #ffffff;
 		}
 
+		.blog:hover {
+			transform: scale(1.05);
+		}
+
 		.all__blogs {
 			display: grid;
-			grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-			column-gap: 24px;
+			grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+			column-gap: 30px;
 			row-gap: 50px;
 			padding-top: 50px;
 			padding-bottom: 100px;
@@ -34,17 +43,22 @@
 
 		.subscribe__section {
 			width: 100%;
-			padding: 120px 100px;
+			padding: 60px 20px;
 			background-color: #24263b;
+			border-radius: 10px;
+			box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
 
 			.subscribe__container {
-				padding: 60px 50px;
+				padding: 40px 20px;
 				background-color: #1f2235;
 				display: flex;
-				justify-content: space-between;
+				flex-direction: column;
 				align-items: center;
+				text-align: center;
 
 				.text {
+					margin-bottom: 20px;
+
 					h3 {
 						font-weight: 400;
 						font-size: 24px;
@@ -54,8 +68,8 @@
 
 					h2 {
 						font-weight: 700;
-						font-size: 55px;
-						line-height: 55px;
+						font-size: 36px;
+						line-height: 1.2;
 						color: #ffffff;
 						padding-top: 9px;
 					}
@@ -70,35 +84,43 @@
 				}
 
 				.form {
+					width: 100%;
 					max-width: 550px;
-					height: 60px;
 					display: flex;
+					flex-direction: row;
+					align-items: center;
 					background: #ffffff;
 					border-radius: 80px;
+					overflow: hidden;
 
 					input {
+						flex: 1;
 						background: #ffffff;
 						border-radius: 80px;
 						border: none;
 						outline: none;
-						width: 100%;
+						padding: 15px;
 						font-weight: 500;
 						font-size: 16px;
 						line-height: 19px;
-						padding-left: 20px;
 						color: #9da1b4;
 					}
 
 					button {
-						height: 100%;
 						background: #fe461c;
 						border-radius: 80px;
-						padding: 0 50px;
+						padding: 0 30px;
 						border: none;
 						font-weight: 700;
 						font-size: 16px;
 						line-height: 15px;
 						color: #ffffff;
+						height: 100%;
+						transition: background 0.3s ease-in-out;
+					}
+
+					button:hover {
+						background: #ff7043;
 					}
 				}
 			}
@@ -106,10 +128,12 @@
 	}
 }
 
-@media screen and (min-width: 1200px) and (max-width: 1440px) {
+@media screen and (min-width: 1441px) {
 	.blog__section {
 		.blog__container {
-			padding: 50px;
+			.all__blogs {
+				grid-template-columns: repeat(3, 1fr);
+			}
 		}
 	}
 }
@@ -121,18 +145,6 @@
 			.all__blogs {
 				grid-template-columns: repeat(2, 1fr);
 			}
-			.subscribe__section {
-				padding: 0;
-				.subscribe__container {
-					padding: 50px 20px;
-					background-color: #24263b;
-					.form {
-						button {
-							padding: 20px;
-						}
-					}
-				}
-			}
 		}
 	}
 }
@@ -142,28 +154,24 @@
 		.blog__container {
 			padding: 10px 20px;
 			.all__blogs {
-				grid-template-columns: repeat(1, 1fr);
+				grid-template-columns: 1fr;
 				row-gap: 20px;
-				padding-bottom: 20px;
 			}
 			.subscribe__section {
 				padding: 0;
 				.subscribe__container {
-					padding: 50px 20px;
-					display: flex;
-					flex-direction: column;
-					align-items: center;
-					background-color: #24263b;
-					.text {
-						h2 {
-							font-size: 32px;
-						}
-					}
+					padding: 20px;
 					.form {
-						height: 40px;
-						row-gap: 20px;
+						flex-direction: column;
+						row-gap: 10px;
+
+						input {
+							width: 100%;
+							padding: 10px;
+						}
+
 						button {
-							height: 100%;
+							width: 100%;
 							padding: 10px;
 						}
 					}
