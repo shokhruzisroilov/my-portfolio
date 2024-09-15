@@ -8,12 +8,8 @@ function AboutInfo() {
 			</div>
 			<h2>Shohruz Isroilov</h2>
 			<p className='paragrf'>
-				I am studying in the 2nd year at the Tashkent Information Technologies
-				Karshi branch. I am currently studying programming in the field of
-				Frontend at the Open Web Academy. I became interested in programming
-				after I entered the university. My current goals are to go to America
-				and get a job in a reputable programming company, and I want to open my
-				own IT company in Uzbekistan after learning more about programming.
+				I am an enthusiastic, responsible, and hard-working frontend developer
+				with experience in JavaScript,TypeScript,Reactjs,Nextjs
 			</p>
 			<div className='info'>
 				<ul>
@@ -23,29 +19,21 @@ function AboutInfo() {
 					</li>
 					<li>
 						<h3>Website :</h3>
-						<p>shohruzisroilov@gmail.com</p>
+						<a
+							href='https://shohruzisroilov.uz/'
+							target='_blank'
+							rel='noopener noreferrer'
+						>
+							<p>shohruzisroilov.uz</p>
+						</a>
 					</li>
 					<li>
 						<h3>Phone :</h3>
 						<p>+998940080473</p>
 					</li>
 					<li>
-						<h3>Study :</h3>
-						<p>TUITKF</p>
-					</li>
-				</ul>
-				<ul>
-					<li>
-						<h3>Dgree :</h3>
-						<p>Software developer</p>
-					</li>
-					<li>
 						<h3>Email :</h3>
-						<p>shokhruzisroiov@gmail.com</p>
-					</li>
-					<li>
-						<h3>Linkedin :</h3>
-						<p>@shohruz-dev</p>
+						<p>isroilovshokhruz@gmail.com</p>
 					</li>
 					<li>
 						<h3>Freelance :</h3>

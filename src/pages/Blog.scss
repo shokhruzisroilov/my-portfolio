@@ -1,14 +1,14 @@
 .blog__section {
 	width: 100%;
+	background-color: #1f2235;
+
 	.blog__container {
 		width: 100%;
 		min-height: 90vh;
-		background-color: #1f2235;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		justify-content: center;
-		padding: 50px 100px;
+
 		.blog {
 			padding: 10px 30px;
 			background: #24263b;
@@ -22,26 +22,28 @@
 			text-transform: capitalize;
 			color: #ffffff;
 		}
+
 		.all__blogs {
-			display: flex;
-			justify-content: center;
+			display: grid;
+			grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
 			column-gap: 24px;
 			row-gap: 50px;
 			padding-top: 50px;
 			padding-bottom: 100px;
-			display: grid;
-			grid-template-columns: repeat(3, 1fr);
 		}
+
 		.subscribe__section {
 			width: 100%;
 			padding: 120px 100px;
 			background-color: #24263b;
+
 			.subscribe__container {
-				padding: 120px 50px;
+				padding: 60px 50px;
 				background-color: #1f2235;
 				display: flex;
 				justify-content: space-between;
 				align-items: center;
+
 				.text {
 					h3 {
 						font-weight: 400;
@@ -49,6 +51,7 @@
 						line-height: 28px;
 						color: #ffffff;
 					}
+
 					h2 {
 						font-weight: 700;
 						font-size: 55px;
@@ -56,6 +59,7 @@
 						color: #ffffff;
 						padding-top: 9px;
 					}
+
 					p {
 						font-weight: 400;
 						font-size: 18px;
@@ -64,12 +68,14 @@
 						padding-top: 12px;
 					}
 				}
+
 				.form {
 					max-width: 550px;
 					height: 60px;
 					display: flex;
 					background: #ffffff;
 					border-radius: 80px;
+
 					input {
 						background: #ffffff;
 						border-radius: 80px;
@@ -81,8 +87,8 @@
 						line-height: 19px;
 						padding-left: 20px;
 						color: #9da1b4;
-						outline: none;
 					}
+
 					button {
 						height: 100%;
 						background: #fe461c;
@@ -99,6 +105,7 @@
 		}
 	}
 }
+
 @media screen and (min-width: 1200px) and (max-width: 1440px) {
 	.blog__section {
 		.blog__container {
@@ -106,12 +113,12 @@
 		}
 	}
 }
+
 @media screen and (max-width: 1200px) {
 	.blog__section {
 		.blog__container {
 			padding: 50px;
 			.all__blogs {
-				display: grid;
 				grid-template-columns: repeat(2, 1fr);
 			}
 			.subscribe__section {
@@ -129,12 +136,12 @@
 		}
 	}
 }
+
 @media screen and (max-width: 767px) {
 	.blog__section {
 		.blog__container {
 			padding: 10px 20px;
 			.all__blogs {
-				display: grid;
 				grid-template-columns: repeat(1, 1fr);
 				row-gap: 20px;
 				padding-bottom: 20px;
@@ -144,10 +151,8 @@
 				.subscribe__container {
 					padding: 50px 20px;
 					display: flex;
-					row-gap: 30px;
 					flex-direction: column;
 					align-items: center;
-					justify-content: center;
 					background-color: #24263b;
 					.text {
 						h2 {

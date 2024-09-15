@@ -14,6 +14,7 @@ const ProjectCardData = [
 		text: 'Dreams Shop online market',
 		view: 'https://dreams-shop.vercel.app/',
 		source: 'https://github.com/shokhruzisroilov/dream-shop-e-commerse.git',
+		filter: 'react',
 	},
 	{
 		id: uuidv4(),
@@ -22,6 +23,7 @@ const ProjectCardData = [
 		text: 'ExcelLance my team website',
 		view: 'https://excellance-team.vercel.app/',
 		source: 'https://github.com/shokhruzisroilov/excellance-team.git',
+		filter: 'landing',
 	},
 	{
 		id: uuidv4(),
@@ -30,6 +32,7 @@ const ProjectCardData = [
 		text: 'Owa books fullstack crud website',
 		view: 'https://owa-books-frontend.vercel.app/',
 		source: 'https://github.com/shokhruzisroilov/owa-books-frontend.git',
+		filter: 'react',
 	},
 	{
 		id: uuidv4(),
@@ -38,6 +41,7 @@ const ProjectCardData = [
 		text: 'Information about countries and a site that works with api.',
 		view: 'https://2-country-info.vercel.app/',
 		source: 'https://github.com/shokhruzisroilov/CountryInfo.git',
+		filter: 'react',
 	},
 	{
 		id: uuidv4(),
@@ -46,6 +50,7 @@ const ProjectCardData = [
 		text: 'Beautiful and functional todo app',
 		view: 'https://todo-app-project1.vercel.app/',
 		source: 'https://github.com/shokhruzisroilov/TodoApp.git',
+		filter: 'react',
 	},
 
 	{
@@ -55,6 +60,7 @@ const ProjectCardData = [
 		text: 'Zumma  Pharma sayitining Frontend qismi.',
 		view: 'https://zumma-pharma-site.netlify.app/',
 		source: 'https://github.com/shokhruzisroilov/OwaBooks-react',
+		filter: 'landing',
 	},
 ]
 

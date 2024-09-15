@@ -10,8 +10,8 @@ function HomeTexts() {
 				Hello, i‘m Shokhruz <span>Frontend</span> Developer.
 			</div>
 			<h3>
-				I'm a curious frontend developer, eager to learn new things, I can work
-				with a backend developer, I'm also interested in design.
+				I am an enthusiastic, responsible, and hard-working frontend developer
+				with experience in JavaScript,TypeScript,Reactjs,Nextjs
 			</h3>
 			<div className='buttons'>
 				<Link to='/contact' className='btn btn-left'>

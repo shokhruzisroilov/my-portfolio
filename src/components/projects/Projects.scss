@@ -2,13 +2,36 @@
 	position: relative;
 	cursor: pointer;
 	overflow: hidden;
+	transition: transform 0.3s ease;
+
+	&:hover {
+		transform: scale(1.05);
+	}
+
+	img {
+		width: 100%;
+		height: auto;
+		object-fit: cover;
+		object-position: center;
+		transition: transform 0.5s ease;
+	}
+
+	&:hover img {
+		transform: scale(1.1);
+	}
+
 	.view__sourse {
 		position: absolute;
+		bottom: 0;
 		width: 100%;
-		top: 0;
 		display: flex;
 		justify-content: space-between;
-		transition: 0.5s;
+		align-items: center;
+		background: rgba(0, 0, 0, 0.6);
+		padding: 10px;
+		opacity: 0;
+		transition: opacity 0.5s ease;
+
 		.btn {
 			margin: 10px;
 			background: rgba(47, 48, 58, 0.8);
@@ -17,61 +40,65 @@
 			cursor: pointer;
 			font-weight: 600;
 			font-size: 16px;
-			line-height: 12px;
 			text-align: center;
 			text-transform: capitalize;
 			text-decoration: none;
 			color: #ffffff;
-		}
-		.btn-view {
-			opacity: 0;
-		}
-		.btn-view-active {
-			opacity: 1;
+			transition: background 0.3s ease;
+
+			&:hover {
+				background: rgba(47, 48, 58, 1);
+			}
 		}
 	}
-	img {
-		width: 100%;
-		height: 100%;
-		max-width: 500px;
-		height: 250px;
-		object-fit: cover;
-		object-position: center;
-		transition: 0.5s;
+
+	.view__sourse--active {
+		opacity: 1;
 	}
-	img:hover {
-		transform: scale(0.9);
-	}
+
 	.span {
 		position: absolute;
 		bottom: 0;
-		display: grid;
-		place-items: left;
 		width: 100%;
 		background: rgba(47, 48, 58, 0.8);
-		padding: 0 20px;
+		padding: 10px 20px;
+
 		h4 {
 			font-weight: 700;
-			font-size: 15px;
-			line-height: 30px;
+			font-size: 16px;
 			color: #ffffff;
+			margin: 0;
 		}
+
 		h5 {
 			font-weight: 400;
 			font-size: 14px;
-			line-height: 15px;
 			color: #ffffff;
 			padding-bottom: 10px;
+			margin: 0;
 		}
 	}
-}
-@media screen and (max-width: 1000px) {
-	.projects {
+
+	@media screen and (max-width: 1000px) {
 		.span {
 			h4 {
-				font-weight: 600;
 				font-size: 14px;
 			}
+
+			h5 {
+				font-size: 12px;
+			}
+		}
+	}
+
+	@media screen and (max-width: 768px) {
+		img {
+			height: auto;
+		}
+
+		.span {
+			padding: 10px;
+			h4,
 			h5 {
 				font-size: 12px;
 			}

@@ -8,10 +8,8 @@ import Resume from '../pages/Resume'
 import Blog from '../pages/Blog'
 import Contact from '../pages/Contact'
 
-
 function App() {
-
-  return (
+	return (
 		<>
 			<Routes>
 				<Route path='/' element={<Layouts />}>

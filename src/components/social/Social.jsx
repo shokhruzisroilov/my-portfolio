@@ -7,17 +7,29 @@ function Social() {
 	return (
 		<div className='social'>
 			<div className='icons'>
-				<Link to='https://www.linkedin.com/in/shohruz-dev/'>
+				<Link
+					to='https://www.linkedin.com/in/shokhruzisroilov/'
+					target='_blank'
+					rel='noopener noreferrer'
+				>
 					<FaLinkedin />
 				</Link>
 			</div>
 			<div className='icons'>
-				<Link to='https://github.com/shokhruzisroilov'>
+				<Link
+					to='https://github.com/shokhruzisroilov'
+					target='_blank'
+					rel='noopener noreferrer'
+				>
 					<FaGithub />
 				</Link>
 			</div>
 			<div className='icons'>
-				<Link to='https://t.me/shohruz_isroilov'>
+				<Link
+					to='https://t.me/shohruz_isroilov'
+					target='_blank'
+					rel='noopener noreferrer'
+				>
 					<FaTelegram />
 				</Link>
 			</div>

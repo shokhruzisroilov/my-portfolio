@@ -1,6 +1,7 @@
 import './Header.scss'
 import { NavLink } from 'react-router-dom'
-import { FaBars, FaWindowClose } from 'react-icons/fa'
+import { FaBars } from 'react-icons/fa'
+import { IoMdClose } from 'react-icons/io'
 import { useState } from 'react'
 import ExampleDoc from '../../public/MyCV.pdf'
 
@@ -84,10 +85,7 @@ function Header() {
 					{burger ? (
 						<FaBars className='burger' onClick={() => setBurger(!burger)} />
 					) : (
-						<FaWindowClose
-							className='close'
-							onClick={() => setBurger(!burger)}
-						/>
+						<IoMdClose className='close' onClick={() => setBurger(!burger)} />
 					)}
 				</nav>
 			</div>
